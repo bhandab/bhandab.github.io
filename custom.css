@@ -1,0 +1,38 @@
+
+header.masthead .intro-text .intro-heading {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+.call-now-flag{
+    font-size:35px;
+    text-align: center;
+
+}
+#call-section{
+    padding: 15px 0;
+    background-color: aquamarine;
+    margin-top:3px;
+}
+
+#mainNav {
+    background-color: black;
+}
+.carousel-item img{
+    height:700px;
+    width:auto;
+  }
+#contactText{
+    color:white;
+    padding-top:50px;
+    
+
+}
+#contactText h3{
+    text-decoration:underline;
+}
+#loc{
+    text-align:center;
+}
