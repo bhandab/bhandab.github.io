@@ -13,7 +13,7 @@ header.masthead .intro-text .intro-heading {
 }
 #call-section{
     padding: 15px 0;
-    background-color: aquamarine;
+    background-color:white;
     margin-top:3px;
 }
 
@@ -35,4 +35,10 @@ header.masthead .intro-text .intro-heading {
 }
 #loc{
     text-align:center;
+}
+.list-group{
+    color:rgb(92, 83, 4);
+}
+#service-detail{
+    padding-top:50px;
 }

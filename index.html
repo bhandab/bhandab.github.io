@@ -48,9 +48,6 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li> -->
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
             </li>
@@ -66,8 +63,8 @@
     <header class="masthead" id = "home">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">FOR ALL YOUR CLEANING NEEDS</div>
-          <div class="intro-heading text-uppercase">Affordable, Quality, and Reliable Cleaning Services</div>
+          <div class="intro-lead-in">A+ QUALITY CLEANING SERVICE COMPANY</div>
+          <div class="intro-heading text-uppercase">Offering Superior Commercial and Residential Cleaning Products and Services for over 25 years</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#contact">Contact US</a>
         </div>
       </div>
@@ -75,74 +72,50 @@
 
     <!-- Services -->
     <section id="call-section">
-      <div class="call-now-flag">
-        <p>Call Now  <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">318-680-3812</a>  Message us at our  <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Facebook Page</a></p>
+        <div class="p-3 mb-2 bg-warning text-white text-center">
+        <h4>Call Now  <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">318-680-3812</a>  Message us at our  <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Facebook Page</a></h4>
       </div>
     </section>
 
     <!-- Services -->
-    <section id="services">
+    <section class = "bg-light" id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Services</h2>
-           <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
           </div>
         </div>
-        <div class="row text-center">
-            <div id="accordion">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Residential Services
-                      </button>
-                    </h5>
-                  </div>
-              
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                    <div class="card-body">
-                        <ul class="list-group">
-                            <li class="list-group-item">Maid Service</li>
-                            <li class="list-group-item">Outside Window Cleaning</li>
-                            <li class="list-group-item">Inspection Passing [Monthly, Quarterly, Half-Yearly, Yearly]</li>
-                            <li class="list-group-item">Carpet Cleaning</li>
-                            <li class="list-group-item">Buffering and Shining Wooden and Tile Floors</li>
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Commercial Services
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                    <div class="card-body">
-                        <ul class="list-group">
-                            <li class="list-group-item">Move-In Move-Out</li>
-                            <li class="list-group-item">Carpet Cleaning</li>
-                            <li class="list-group-item">Janitorial</li>
-                          </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-        <!--<div class = "row">
-          <div class = "col-lg-12 text-center">
-            <h2 class = "section-heading text-uppercase">Testimonials</h2>
-          </div>
-        </div>-->
+        <div id = "service-detail" >
+        <p>
+            <button class="btn btn-primary btn-lg btn-block dropdown-toggle" data-toggle="collapse" data-target="#targetOne">Commercial Services</button>
 
+            <div id="targetOne" class="collapse">
+                <ul class="list-group">
+                    <li class="list-group-item">Move-in Move-out</li>
+                    <li class="list-group-item">Carpet Cleaning</li>
+                    <li class="list-group-item">Janitorial</li>
+                  </ul>
+            </div>
+          </p>
+          <p>
+              <button class="btn btn-primary btn-lg btn-block dropdown-toggle" data-toggle="collapse" data-target="#targetTwo">Residential Services</button>
+  
+              <div id="targetTwo" class="collapse">
+                  <ul class="list-group">
+                      <li class="list-group-item">Maid's Home Cleaning - Dusting, Mopping and Wiping Services</li>
+                      <li class="list-group-item">Window Cleaning</li>
+                      <li class="list-group-item">Meet Inspection Needs [Monthly, Quarterly, Semi-Annual, Annual]</li>
+                      <li class="list-group-item">Rug & Carpet Cleaning $ Shampooing</li>
+                      <li class="list-group-item">Buffing and Shining Wooden and Tile Floors</li>
+                    </ul>
+              </div>
+            </p>
+            </div>
       </div>
     </section>
 
     <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
+    <section class="bg-light" id="portfolio" style = "padding-top:0px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -202,93 +175,35 @@
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section class = "bg-light" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">About Us</h2>
-          <!---<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
         </div>
-     <!-- </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 class="subheading">Our Humble Beginnings</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 class="subheading">An Agency is Born</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>December 2012</h4>
-                    <h4 class="subheading">Transition to Full Service</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 class="subheading">Phase Two Expansion</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                  </div>
-                </div>
-              </li>
-              <li class="timeline-inverted">
-                <div class="timeline-image">
-                  <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>-->
+        <div class = "row">
+            <div class="p-3 mb-2 bg-light text-dark">
+              <p>
+                Vern's A-Q cleaning Services is a locally owned home-based business that offers several residential and commercial cleaning services.
+                Vern's A-Q Cleaning Services began serving Quachita Parish and the surrounding areas from August 29, 2006. We have been providing Maid Service,
+                Janitorial Service, Carpet Cleaning, Move-in Move-out, Window Cleaning , Buffing and Shining floor services.Please checkout services section
+                of this page to learn about out the services we offer  in detail. Vern's A-Q Cleaning Services had brought into Chem-Dry, which is the the largest Carpet Cleaning Franchise
+                in the world.
+              </p>
+              
+              
+            </div>
+        </div>
+       
       </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" style = "padding-top:50px;">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
           </div>
         </div>
         <div class="row">
@@ -336,6 +251,15 @@
             <h3>Location</h3>
             <p>1007 Thomas Ave</p>
             <p>Monroe, LA. 71202</p>
+          </div>
+          <div class = "container text-center">
+
+              <h2>Service Hours</h2>
+              <p>8am - 5pm    Monday - Friday</p>
+              <p>8am - 12pm   Saturdays </p>
+              <h3>On Call 24/7 for Emegergency!</h3>
+            </div>
+            
           </div>
         </div>
       </div>
